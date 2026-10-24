@@ -1,0 +1,47 @@
+{
+  "fictional": true,
+  "timeZone": "America/New_York",
+  "timeZoneProvenance": "Chosen explicitly for the demonstration; not stated in the PDF.",
+  "events": [
+    {
+      "title": "School closed",
+      "startDate": "2026-11-02",
+      "endDate": "2026-11-02",
+      "allDay": true,
+      "startTime": "",
+      "endTime": "",
+      "icsStart": "20261102",
+      "icsEndExclusive": "20261103"
+    },
+    {
+      "title": "Family evening",
+      "startDate": "2026-11-05",
+      "endDate": "2026-11-05",
+      "allDay": false,
+      "startTime": "18:00",
+      "endTime": "19:30",
+      "icsStart": "20261105T230000Z",
+      "icsEndExclusive": "20261106T003000Z"
+    },
+    {
+      "title": "Student showcase",
+      "startDate": "2026-12-04",
+      "endDate": "2026-12-04",
+      "allDay": false,
+      "startTime": "13:00",
+      "endTime": "14:00",
+      "icsStart": "20261204T180000Z",
+      "icsEndExclusive": "20261204T190000Z"
+    },
+    {
+      "title": "Term ends",
+      "startDate": "2026-12-18",
+      "endDate": "2026-12-18",
+      "allDay": true,
+      "startTime": "",
+      "endTime": "",
+      "icsStart": "20261218",
+      "icsEndExclusive": "20261219"
+    }
+  ]
+}
