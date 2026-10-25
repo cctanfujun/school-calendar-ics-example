@@ -44,11 +44,21 @@ The downloaded ICS uses CRLF line endings and folded long lines. Keep the leadin
 
 See the [complete illustrated guide](https://calendar.tanfujun.com/guides/school-pdf-to-google-calendar/) and [Google's import instructions](https://support.google.com/calendar/answer/37118?hl=en). If your school offers an official subscription or ICS, prefer that over converting its PDF.
 
+## If an import looks wrong
+
+- **No events visible:** check that the destination calendar is visible, then look at November 2, November 5, December 4 and December 18, **2026**. This sample has four events; it is not your school's current schedule.
+- **Google says “Processed zero events”:** check whether the first import already added the four dates before trying again. Google documents this message after repeated imports. The sample download is already an ICS, not a ZIP to unpack.
+- **A time looks wrong:** compare the calendar's display time zone with America/New_York and the exact values above. The Family evening UTC end is on November 6, but its New York end is still November 5.
+
+Use [Google's import troubleshooting](https://support.google.com/calendar/answer/45654?hl=en) for client errors. If you report a sample-file problem here, include the calendar client, the affected example event and the expected versus observed date/time. Do not post personal calendars or real school notices.
+
 ## How this example was produced
 
-I wrote the fictional notice for a demonstration of [PDF to Calendar](https://calendar.tanfujun.com/), the free beta I make. Its PDF-text path extracted these four events; I reviewed each event and downloaded the ICS. This pair was also used in a maker-run Google Calendar import demonstration. It is one checked example, not an accuracy benchmark, an AI extraction result, or an independent customer outcome. The converter's application code is maintained separately.
+I wrote the fictional notice for a demonstration of [PDF to Calendar](https://calendar.tanfujun.com/), the web converter I make. Its PDF-text path extracted these four events; I reviewed each event and downloaded the ICS. This pair was also used in a maker-run Google Calendar import demonstration. It is one checked example, not an accuracy benchmark, an AI extraction result, or an independent customer outcome. The converter's application code is maintained separately.
 
 For your own document, the beta accepts one file, up to 3 PDF pages, 5 MB and 30 events. Extraction sends content to Cloudflare after consent; general layouts may use Workers AI. Review the selected events before exporting. The tool does not connect to calendar accounts or sync later changes.
+
+These repository files are free to inspect, download and reuse without using the converter. The website keeps single-ICS export and its existing extraction allowance free, without an account or card. It also offers an optional $5 plus applicable tax Export Pass for 30 days of grouped ZIP/CSV exports, with no automatic renewal; that purchase is not needed for this example and does not add AI credits or raise input limits.
 
 ## Reuse and corrections
 

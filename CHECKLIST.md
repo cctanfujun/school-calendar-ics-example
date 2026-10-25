@@ -30,6 +30,8 @@ Copy this worksheet when reviewing a school PDF and its calendar file. You can u
 - [ ] Keep the original document and the reviewed ICS.
 - [ ] Create a separate test calendar and check the destination before importing.
 - [ ] Compare the resulting events with the source, including dates, time zones and multi-day ends.
+- [ ] If an event seems missing, check the destination calendar's visibility and the event's actual year before importing again.
+- [ ] If Google reports “Processed zero events”, check whether the first import already added the events; consult its [import troubleshooting](https://support.google.com/calendar/answer/45654?hl=en) instead of repeatedly importing.
 - [ ] Check for duplicates before re-importing. A one-time import does not sync later changes to the PDF.
 - [ ] Remove the test calendar when finished; do not delete an unrelated or primary calendar.
 
